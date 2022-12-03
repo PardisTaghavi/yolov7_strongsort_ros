@@ -3,6 +3,7 @@ Integration of  "Yolov7 StrongSort" with ROS for real time object tracking
 
 # Requirements
 Ubuntu 18.04
+
 ROS Melodic
 
 # Installation
