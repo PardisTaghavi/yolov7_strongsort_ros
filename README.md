@@ -14,18 +14,35 @@ Clone the repository recursively:
 
 ```
 cd catkin_workspace/src
-git clone --recurse-submodules https://github.com/PardisTaghavi/yolov7_StrongSORT_ROS.git
-cd ../
-catkin build yolov7_strongsort_ros or catkin_make
+git clone --recurse-submodules https://github.com/PardisTaghavi/yolov7_strongsort_ros.git
 ```
+or if you cloned the repo without --recurse-submodules
+```
+git clone https://github.com/PardisTaghavi/yolov7_StrongSORT_ROS.git
+cd yolov7_strongsort_ros
+git submodule update --init
+```
+
+
+
+install requirements and build the package
 
 ```
 cd Yolov7_StrongSORT_OSNet
 pip install -r requirements.txt
+
+cd ../..
+catkin build yolov7_strongsort_ros or catkin_make
 ```
+don't forget to source the package
+```
+source devel/setup.bash
+```
+
 
 run through python code:
 ```
+chmod +x trackRos.py (do it one time to change accessibility of the file)
 python trackRos.py 
 ```
 
