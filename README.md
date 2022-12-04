@@ -14,7 +14,7 @@ Clone the repository recursively:
 cd catkin_workspace/src
 git clone --recurse-submodules https://github.com/PardisTaghavi/yolov7_StrongSORT_ROS.git
 cd ../
-catkin build [pkg name] or catkin_make
+catkin build yolov7_strongsort_ros or catkin_make
 ```
 ```
 
@@ -28,7 +28,7 @@ python track.py
 ```
 or run through the launch file:
 ```
-roslaunch [pkg_name] [launchfile]
+roslaunch yolov7_strongsort_ros trackingLaunch.launch
 ```
 Name of the topic with data fromat /Image/sensor_msgs should be modified in the launch file
 # Speed
