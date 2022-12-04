@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 run through python code:
 ```
-python track.py 
+python trackRos.py 
 ```
 or run through the launch file:
 ```
