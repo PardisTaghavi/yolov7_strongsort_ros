@@ -31,3 +31,9 @@ or run through the launch file:
 roslaunch [pkg_name] [launchfile]
 ```
 Name of the topic with data fromat /Image/sensor_msgs should be modified in the launch file
+# Speed
+you can check frequency :
+```
+rostopic hz /trackResult
+```
+which in my system is around 7Hz,
