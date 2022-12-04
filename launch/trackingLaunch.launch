@@ -1,6 +1,6 @@
 
 <launch>
     <!-- Node -->
-    <node name="sortYoloRosNode" pkg="yolov7_strongsort_ros" type="trackCopy2.py" output="screen" respawn="true">
+    <node name="sortYoloRosNode" pkg="yolov7_strongsort_ros" type="trackRos.py" output="screen" respawn="true">
     </node>
 </launch>
