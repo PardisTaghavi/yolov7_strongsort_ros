@@ -1,0 +1,3 @@
+[submodule "src/Yolov7_StrongSORT_OSNet"]
+	path = src/Yolov7_StrongSORT_OSNet
+	url = https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet.git
