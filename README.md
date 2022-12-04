@@ -36,4 +36,4 @@ you can check frequency :
 ```
 rostopic hz /trackResult
 ```
-which in my system is around 7Hz,
+Currently it is around 7-8 Hz.
